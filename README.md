@@ -3,7 +3,10 @@
 This repository showcases a data pipeline using **Pandas** for ETL, **SQLite** for data storage, **Apache ECharts** for visualization, **FastAPI** for the backend, and **scikit-learn** for clustering.
 
 ## Setup
-1. Clone the repo: `git clone https://github.com/pjlau/fastapi_etl_ml`
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/pjlau/fastapi_etl_ml
+   cd fastapi_etl_ml
 2. Install dependencies: `pip install -r api/requirements.txt`
 3. Run the ETL pipeline: `python data/scripts/etl_pipeline.py`
 4. Train the clustering model: `python api/models/classifier.py`
