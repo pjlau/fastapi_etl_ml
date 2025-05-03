@@ -3,7 +3,7 @@
 This repository showcases a data pipeline using **Pandas** for ETL, **SQLite** for data storage, **Apache ECharts** for visualization, **FastAPI** for the backend, and **scikit-learn** for clustering.
 
 ## Setup
-1. Clone the repo: `git clone <repo-url>`
+1. Clone the repo: `v`
 2. Install dependencies: `pip install -r api/requirements.txt`
 3. Run the ETL pipeline: `python data/scripts/etl_pipeline.py`
 4. Train the clustering model: `python api/models/classifier.py`
@@ -17,10 +17,6 @@ This repository showcases a data pipeline using **Pandas** for ETL, **SQLite** f
 - **Apache ECharts**: Interactive visualizations (`visualization/static/js/charts.js`).
 - **FastAPI**: Serves data and predictions (`api/main.py`).
 - **scikit-learn**: K-Means clustering model (`api/models/classifier.py`).
-
-## Prerequisites
-- Docker
-- Python 3.9 (for local development)
 
 ## Running the ETL Pipeline
 - The ETL pipeline runs automatically during the Docker build (`RUN python data/scripts/etl_pipeline.py`), creating a temporary SQLite table with sample data.
